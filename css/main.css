@@ -114,11 +114,11 @@ body {
     align-items: center;
     text-align: left;
 
-<<<<<<< HEAD
+
     background-image: url('../img/bg.jpg');
-=======
+
     background-image: url('/img/bg.jpg');
->>>>>>> 5ee3721a7120451ba910d93a2c62632b66a20fd4
+
     background-repeat: no-repeat;
     background-size: auto;  
     background-position: center;
