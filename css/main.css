@@ -175,7 +175,7 @@ body {
     transition: opacity 0.2s ease-in;
 }
 
-.btn.hower {
+.btn:hover {
     opacity: 0.8;
 }
 
@@ -204,7 +204,7 @@ body {
     font-weight: 500;
     line-height: 1.3;
     padding: 90px;
-    padding-bottom: 0;
+    padding-bottom: 0px;
 }
 
 /* button outline */
@@ -222,7 +222,7 @@ body {
     color: var(--black);
 }
 
-.btn-outline.hower {
+.btn-outline:hover {
     opacity: 0.8;
 }
 
