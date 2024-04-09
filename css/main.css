@@ -107,17 +107,17 @@ body {
 
 .header {
     padding: 40px 0;
-    min-height: 698px;
+    min-height: 786px;
 
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     text-align: left;
 
     background-image: url('../img/bg.jpg');
 
     background-repeat: no-repeat;
-    background-size: auto;  
+    background-size: cover;  
     background-position: center;
 
     color: var(--header-text);  
@@ -125,7 +125,7 @@ body {
 
 .header__wrapper {
     padding: 0 15px;
-    margin-inline-start: 150px;
+    margin-inline-start: 100px;
     margin-bottom: 200px;
     max-width: 660px;
 }
@@ -187,7 +187,7 @@ body {
 /* Section */
 
 .section {
-    padding: 70px;
+    padding: 30px;
 }
 
 .title-1 {
@@ -249,6 +249,8 @@ body {
 
 .project__img {
     border-radius: 10px;
+    max-width: 100%;
+    height: auto;
 }
 
 .project__title {
